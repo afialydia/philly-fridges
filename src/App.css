@@ -1,6 +1,7 @@
 .App {
-	text-align: center;
-	/* max-width:1000px; */
+	font-family: 'Ubuntu', sans-serif;
+	color: #24037F;
+
 }
 
 header {
@@ -13,23 +14,11 @@ header {
 	z-index: 1;
 }
 
-a,
-/* span, */
-h1,
-/* h2, */
-h3,
-h4 
-{
-	font-family: "DM Serif Text", serif;
-}
-
 nav {
 	display: flex;
 	justify-content: flex-start;
 	padding: 1.5%;
-	/* align-items: center; */
 	width: 80vw;
-	/* place-items:flex; */
 }
 
 .nav-span {
@@ -43,63 +32,13 @@ nav {
 	padding: 0 0 0 0.75%;
 	place-items: center;
 	cursor: pointer;
-		font-family: "DM Serif Text", serif;
+		/* font-family: "DM Serif Text", serif; */
 
-}
-
-#mapid { height: 180px; }
-
-
-i {
-	color: wheat;
-}
-
-a:hover {
-	color: rgb(245,172,0);
-}
-
-
-a {
-	color:rgb(245,172,0);
-}
-
-i:hover {
-	color: antiquewhite;
-}
-
-a:hover {
-	text-decoration: none;
-	color: rgb(245,172,0);
-}
-
-h1 {
-	font-size: 5.5em;
-}
-
-
-
-.onion{
-	/* display: block;
-
-	width:50vw;
-	max-width:950px; 
-	margin:50vw 10vw; 
-	border: solid; */
-}
-
-
-
-
-.bottom.contact-blob{
-	/* display: block;
-	border:solid;
-	width: 100vw;
-	margin:0 0 0 0; */
 }
 
 
 .title{
-	width: 100%;
+	/* width: 100%; */
 	/* border: solid; */
 }
 .title img{

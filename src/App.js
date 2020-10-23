@@ -4,6 +4,7 @@ import { Parallax, ParallaxLayer, Transition } from "react-spring/renderprops-ad
 
 import "./App.css";
 
+import FAQ from './components/FAQ.jsx'
 import cucumber from './assets/veggies/cucumber.svg'
 import bokchoy from './assets/veggies/bokchoy.svg'
 import broccoli from './assets/veggies/broccoli.svg'
@@ -52,7 +53,7 @@ class App extends React.Component {
 	
 		return (
 			
-				<div>
+				<div className="App">
 				<header>
 					<nav>
 						<span className="nav-span" onClick={() => this.parallax.scrollTo(0)}><PhillyFridges/></span>
@@ -62,18 +63,21 @@ class App extends React.Component {
 						
 					</nav>
 				</header>
-  <Parallax ref={ref => (this.parallax = ref)} pages={4}>
-        <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#805E73' }} />
-        <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: '#87BCDE' }} />
+  <Parallax ref={ref => (this.parallax = ref)} 
+  style={{ scrolling:'true', display:'grid', backgroundColor: '#fc993f' }} pages={4}>
+        <ParallaxLayer offset={0} speed={1} style={{ backgroundColor: 'white' }} />
+        <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: 'white' }} />
+        <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: 'white' }} />
+        <ParallaxLayer offset={3} speed={1} style={{ backgroundColor: 'white' }} />
 
-        <ParallaxLayer offset={0} speed={0} factor={3} style={{  backgroundSize: 'cover' }} />
+        {/* <ParallaxLayer offset={0} speed={0} factor={4} style={{  backgroundColor:'white' }} /> */}
 {/* 
         <ParallaxLayer offset={3.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
           <img src={onion} style={{ width: '15%', marginLeft: '70%' }} />
         </ParallaxLayer> */}
 
         <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
-          <img src={bokchoy} style={{ display: 'block', width: '20%', marginLeft: '55%' }} />
+          <img src={bokchoy} style={{ display: 'block', width: '20%', marginLeft: '45%', marginTop:'5%' }} />
           <img src={carrot} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
         </ParallaxLayer>
 
@@ -82,9 +86,10 @@ class App extends React.Component {
           {/* <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '40%' }} /> */}
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={0.2} style={{ opacity: 0.2 }}>
-          <img src={pepper} style={{ display: 'block', width: '10%', marginLeft: '10%' }} />
-          <img src={corn} style={{ display: 'block', width: '20%', marginLeft: '75%' }} />
+        <ParallaxLayer offset={2} speed={0.2} style={{ opacity: 0.2 }}>
+          {/* <img src={pepper} style={{ display: 'block', width: '10%', marginLeft: '10%' }} /> */}
+
+          <img src={corn} style={{ display: 'block', width: '15%', marginLeft: '55%' }} />
         </ParallaxLayer>
 
         <ParallaxLayer offset={2.6} speed={-0.1} style={{ opacity: 0.4 }}>
@@ -117,7 +122,7 @@ class App extends React.Component {
         <ParallaxLayer
           offset={0}
           speed={0.1}
-          onClick={() => this.parallax.scrollTo(1)}
+          // onClick={() => this.parallax.scrollTo(1)}
           style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           <img src={corn} style={{ width: '20%' }} />
         </ParallaxLayer>
@@ -125,8 +130,8 @@ class App extends React.Component {
         <ParallaxLayer
           offset={1}
           speed={0.1}
-          onClick={() => this.parallax.scrollTo(2)}
-          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          // onClick={() => this.parallax.scrollTo(2)}
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
           <img src={broccoli} style={{ width: '40%' }} />
         </ParallaxLayer>
 		
@@ -135,7 +140,8 @@ class App extends React.Component {
           offset={2}
           speed={-0}
           style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}
-          onClick={() => this.parallax.scrollTo(0)}>
+          // onClick={() => this.parallax.scrollTo(0)}
+          >
           <img src={cabbage} style={{ width: '30%'}} />
         </ParallaxLayer>
 
@@ -147,8 +153,12 @@ class App extends React.Component {
           {/* <img src={cabbage} style={{ width: '40%' }} /> */}
         </ParallaxLayer>
         <ParallaxLayer offset={3} speed={0.8} style={{ opacity: 0.1 }}>
-          <img src={bokchoy} style={{ display: 'block', width: '20%', marginLeft: '55%' }} />
+          <img src={bokchoy} style={{ display: 'block', width: '20%', marginLeft: '35%',marginTop:"5%" }} />
           <img src={mushroom} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
+        </ParallaxLayer>
+        
+        <ParallaxLayer offset={3} speed={-0.2} style={{ opacity:1 }}>
+          <FAQ />
         </ParallaxLayer>
 
       </Parallax>
