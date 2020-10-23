@@ -4,7 +4,47 @@ import { Parallax, ParallaxLayer, Transition } from "react-spring/renderprops-ad
 
 import "./App.css";
 
-import cucumber from './assets/cucumber.svg'
+import cucumber from './assets/veggies/cucumber.svg'
+import bokchoy from './assets/veggies/bokchoy.svg'
+import broccoli from './assets/veggies/broccoli.svg'
+import cabbage from './assets/veggies/cabbage.svg'
+import carrot from './assets/veggies/carrot.svg'
+import corn from './assets/veggies/corn.svg'
+import eggplant from './assets/veggies/eggplant.svg'
+import sugarsnap from './assets/veggies/sugarsnap.svg'
+import mushroom from './assets/veggies/mushroom.svg'
+import jalepeno from './assets/veggies/jalepeno.svg'
+import pepper from './assets/veggies/pepper.svg'
+import onion from './assets/veggies/onion.svg'
+import A from './assets/alpha-numeric/A.svg'
+import B from './assets/alpha-numeric/B.svg'
+import C from './assets/alpha-numeric/C.svg'
+import D from './assets/alpha-numeric/D.svg'
+import E from './assets/alpha-numeric/E.svg'
+import F from './assets/alpha-numeric/F.svg'
+import G from './assets/alpha-numeric/G.svg'
+import H from './assets/alpha-numeric/H.svg'
+import I from './assets/alpha-numeric/I.svg'
+import J from './assets/alpha-numeric/J.svg'
+import K from './assets/alpha-numeric/K.svg'
+import L from './assets/alpha-numeric/L.svg'
+import M from './assets/alpha-numeric/M.svg'
+import N from './assets/alpha-numeric/N.svg'
+import O from './assets/alpha-numeric/O.svg'
+import P from './assets/alpha-numeric/P.svg'
+import Q from './assets/alpha-numeric/Q.svg'
+import R from './assets/alpha-numeric/R.svg'
+import S from './assets/alpha-numeric/S.svg'
+import T from './assets/alpha-numeric/T.svg'
+import U from './assets/alpha-numeric/U.svg'
+import V from './assets/alpha-numeric/V.svg'
+import W from './assets/alpha-numeric/W.svg'
+import X from './assets/alpha-numeric/X.svg'
+import Y from './assets/alpha-numeric/Y.svg'
+import Z from './assets/alpha-numeric/Z.svg'
+import One from './assets/alpha-numeric/1.svg'
+import Two from './assets/alpha-numeric/2.svg'
+import PhillyFridges from './components/phillyfridges'
 
 class App extends React.Component {
 
@@ -15,184 +55,103 @@ class App extends React.Component {
 				<div>
 				<header>
 					<nav>
-						<span className="nav-span" onClick={() => this.parallax.scrollTo(0)}>Map </span>
-						<span  className="nav-span"  onClick={() => this.parallax.scrollTo(1)}>Resources</span>
-						<span className="nav-span"  onClick={() => this.parallax.scrollTo(2)}>Fridges</span>
-						<span className="nav-span"  onClick={() => this.parallax.scrollTo(3)}>Mutual Aid</span>
+						<span className="nav-span" onClick={() => this.parallax.scrollTo(0)}><PhillyFridges/></span>
+						<span  className="nav-span"  onClick={() => this.parallax.scrollTo(1)}>Community Fridges</span>
+						<span className="nav-span"  onClick={() => this.parallax.scrollTo(2)}>Resources</span>
+						<span className="nav-span"  onClick={() => this.parallax.scrollTo(3)}>FAQ</span>
 						
 					</nav>
 				</header>
-				<Parallax
-					ref={(ref) => (this.parallax = ref)}
-					pages={4}
-					scrolling={true}
-					style={{ 
-						display: "grid", backgroundColor: "#F8D3B4" }}
-				>
-					<ParallaxLayer
-						offset={0}
-						speed={1}
-						style={{ backgroundColor: "#F8D3B4" }}
-					/>
-					<ParallaxLayer
-						offset={1}
-						speed={1}
-						style={{ backgroundColor: "#F8D3B4" }}
-					/>
-					<ParallaxLayer
-						offset={2}
-						speed={1}
-						style={{ backgroundColor: "#F8D3B4" }}
-					/>
-					<ParallaxLayer
-						offset={3}
-						speed={1}
-						style={{ backgroundColor: "#F8D3B4" }}
-					/>
-					<ParallaxLayer
-						offset={0}
-						speed={2}
-						factor={4}
-						// style={{
-						// 	// border: "solid",
-						// 	backgroundSize: "cover"
-						// }}
-					>	{/*top right */}
-						{/* <img
-							src={Blob1}
-							className="top right-blob"
-							alt="circular blob"
-						/> */}
-					</ParallaxLayer>
-					<ParallaxLayer offset={0} speed={-2} 
-					// style={{ opacity: .76 , marginLeft: "13vw", marginTop: "3vh"}}
-					className="parallax-style top-right"
-					>
-					{/*top left */}
-						{/* <img
-							src={Blob2}
-							className="top left-blob"
-						
-						/> */}
-					</ParallaxLayer>
+  <Parallax ref={ref => (this.parallax = ref)} pages={4}>
+        <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#805E73' }} />
+        <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: '#87BCDE' }} />
 
-					<ParallaxLayer
-						factor={1.5}
-						offset={0.3}
-						speed={-0.3}
-						style={{ pointerEvents: "none" }, 
-						{width: "100vw" },{opacity:0.6}}
-					>
-					{/* mid top about and message */}
-						{/* <img
-							src={Blob8}
-							className="top center-blob"
-						/> */}
-					</ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0} factor={3} style={{  backgroundSize: 'cover' }} />
+{/* 
+        <ParallaxLayer offset={3.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
+          <img src={onion} style={{ width: '15%', marginLeft: '70%' }} />
+        </ParallaxLayer> */}
 
-					<ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.7 }}>
-						{/* mid center and about left */}
-						  {/* <img
-						 src={Blob9}
-							style={{ display: "block", width: "25%", marginLeft: "-5%" }}
-						/> */}
-						
-						
-					</ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.8} style={{ opacity: 0.1 }}>
+          <img src={bokchoy} style={{ display: 'block', width: '20%', marginLeft: '55%' }} />
+          <img src={carrot} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
+        </ParallaxLayer>
 
-				
+        <ParallaxLayer offset={1.75} speed={0.5} style={{ opacity: 0.1 }}>
+          {/* <img src={cabbage} style={{ display: 'block', width: '20%', marginLeft: '70%' }} /> */}
+          {/* <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '40%' }} /> */}
+        </ParallaxLayer>
 
-					<ParallaxLayer offset={1} speed={0.2} style={{ opacity: 0.5 }}>
-						{/* about right */}
-						{/* <img
-						src={Blob10}
-							style={{ display: "block", width: "60%", marginLeft: "50%" }}
-						/> */}
-						
-					</ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.2} style={{ opacity: 0.2 }}>
+          <img src={pepper} style={{ display: 'block', width: '10%', marginLeft: '10%' }} />
+          <img src={corn} style={{ display: 'block', width: '20%', marginLeft: '75%' }} />
+        </ParallaxLayer>
 
-					<ParallaxLayer offset={2.6} speed={-0.6} style={{ opacity: 0.8 }}>
-						<img
-							src={cucumber}
-							style={{ width: "40vw"}, {margin:"0 0 0 80%" }}
-						/> 
-						
-					</ParallaxLayer>
+        <ParallaxLayer offset={2.6} speed={-0.1} style={{ opacity: 0.4 }}>
+          {/* <img src={mushroom} style={{ display: 'block', width: '20%', marginLeft: '60%' }} /> */}
+          {/* <img src={eggplant} style={{ display: 'block', width: '25%', marginLeft: '30%' }} /> */}
+          <img src={cucumber} style={{ display: 'block', width: '10%', marginLeft: '80%' }} />
+        </ParallaxLayer>
 
-					<ParallaxLayer offset={3} speed={0.6} style={{ opacity: 0.8 }}> 
-					{/* contact blob */}
-						{/* <img
-							src={Blob7}
-							className="bottom contact-blob"
-						/> */}
-					</ParallaxLayer>
+        <ParallaxLayer offset={2.6} speed={0.4} style={{ opacity: 0.6 }}>
+          {/* <img src={jalepeno} style={{ display: 'block', width: '20%', marginLeft: '5%' }} /> */}
+          {/* <img src={eggplant} style={{ display: 'block', width: '15%', marginLeft: '75%' }} /> */}
+        </ParallaxLayer>
 
-					<ParallaxLayer
-						offset={0}
-						speed={0.1}
-						style={{
-							display: "flex",
-							alignItems: "center",
-							justifyContent: "center",
-						}}
-					>
-						<div className='title'style={{
-							backgroundSize: "cover"}}>
-							<div><h1>Philly Fridges</h1>
-							<h3>Mutual Aid </h3>
-							<h4>Philly, PA</h4>
-							</div>
-						</div>
-					</ParallaxLayer>
+        <ParallaxLayer offset={3} speed={-0.1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', pointerEvents: 'none' }}>
+          <img src={eggplant} style={{ width: '20%' }} />
+        </ParallaxLayer>
 
-					<ParallaxLayer
-						offset={1}
-						speed={0.1}
-						style={{
-							display: "flex",
-							alignItems: "center",
-							justifyContent: "center"
-						}}
-					>
-						{/* <AboutPage /> */}
-					</ParallaxLayer>
-					{/* <ParallaxLayer
-						offset={1}
-						speed={0.5}
-						style={{
-							display: "flex",
-							
-						}}
-					>
-						<div>
-							<img className="pic" src={headshot}/> 
-						</div>
-					</ParallaxLayer> */}
-					<ParallaxLayer
-						offset={2}
-						speed={-0}
-						style={{
-							display: "flex",
-							alignItems: "center",
-							justifyContent: "center",
-						}}
-					>
-						{/* <PortfolioPage /> */}
-					</ParallaxLayer>
+		
 
-					<ParallaxLayer
-						offset={3}
-						speed={-0}
-						style={{
-							display: "flex",
-							alignItems: "center",
-							justifyContent: "center",
-							marginTop: "1%",
-						}}
-					>
-						{/* <ContactPage /> */}
-					</ParallaxLayer>
-				</Parallax>
+        <ParallaxLayer
+          offset={2}
+          speed={-0.3}
+          style={{
+            backgroundSize: '80%',
+            backgroundPosition: 'center',
+            // backgroundImage: url('clients', true)
+          }}
+        />
+
+        <ParallaxLayer
+          offset={0}
+          speed={0.1}
+          onClick={() => this.parallax.scrollTo(1)}
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <img src={corn} style={{ width: '20%' }} />
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          offset={1}
+          speed={0.1}
+          onClick={() => this.parallax.scrollTo(2)}
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <img src={broccoli} style={{ width: '40%' }} />
+        </ParallaxLayer>
+		
+
+        <ParallaxLayer
+          offset={2}
+          speed={-0}
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}
+          onClick={() => this.parallax.scrollTo(0)}>
+          <img src={cabbage} style={{ width: '30%'}} />
+        </ParallaxLayer>
+
+		<ParallaxLayer
+          offset={2}
+          speed={0.1}
+          onClick={() => this.parallax.scrollTo(2)}
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          {/* <img src={cabbage} style={{ width: '40%' }} /> */}
+        </ParallaxLayer>
+        <ParallaxLayer offset={3} speed={0.8} style={{ opacity: 0.1 }}>
+          <img src={bokchoy} style={{ display: 'block', width: '20%', marginLeft: '55%' }} />
+          <img src={mushroom} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
+        </ParallaxLayer>
+
+      </Parallax>
 			
 			</div>
 			
