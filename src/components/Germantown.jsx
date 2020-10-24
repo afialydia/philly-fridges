@@ -7,7 +7,7 @@ const Germantown = () =>{
     return(
         <div className="fridge-container germantown">
         <div className="fridge">
-            <h2>Germantown</h2>
+            {/* <h2>Germantown</h2>
             <span>511 s. 52nd street, Philadelphia, PA, 19143</span>
             <p>Mutual Aid is a voluntary
             reciprocal exchange of resources and
@@ -28,7 +28,7 @@ const Germantown = () =>{
                 this fridge.
             </p>
             <h3>Food is a basic human right and
-                everyone deserves access.</h3>
+                everyone deserves access.</h3> */}
         </div>
         </div>
     )
