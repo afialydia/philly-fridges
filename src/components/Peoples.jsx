@@ -5,7 +5,7 @@ import './components.css'
 const Peoples = () =>{
 
     return(
-        <div className="fridge-container people">
+        <div className="fridge-container peoples">
         <div className="fridge">
             <h2>The People's Fridge</h2>
             <span>511 s. 52nd street, Philadelphia, PA, 19143</span>
