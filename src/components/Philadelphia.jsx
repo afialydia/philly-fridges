@@ -2,10 +2,10 @@ import React from 'react'
 import './components.css'
 
 
-const Germantown = () =>{
+const Philadelphia = () =>{
 
     return(
-        <div className="fridge-container germantown">
+        <div className="fridge-container philadelphia">
         <div className="fridge">
 
         <p>testtest</p>
@@ -36,4 +36,4 @@ const Germantown = () =>{
     )
 }
 
-export default Germantown
+export default Philadelphia

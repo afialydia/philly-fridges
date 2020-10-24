@@ -40,12 +40,19 @@
     margin-top:5%;
 }
 
+.phillycomm {
+    background: #F8D3B4 ;
+    border-radius:32% 68% 26% 74% / 60% 69% 31% 40%; ;
+
+}
+
 .germantown{
     background: #A9E0E0;
     border-radius:76% 24% 43% 57% / 30% 36% 64% 70% ;
+    padding:4%; 
 
 }
-.people{
+.peoples{
     background: #D3EF5E;
     border-radius:75% 25% 43% 57% / 48% 62% 38% 52% ;
     height:auto;
@@ -59,6 +66,12 @@
     padding:7.5%;
 
 }
+
+.phillycomm .fridge{
+    margin-top:7%;
+}
+
+
 
 .fridge p{
     font-size: 1.5vmin;
@@ -80,6 +93,16 @@
     font-size:2vmin;
 }
 
+.fridge button{
+    margin: 0 auto;
+    width:50%;
+    padding: 1%;
+    border: none;
+    border-radius:76% 24% 73% 27% / 41% 69% 31% 59% ;
+    background-color: #A6C5F6;
+    color:#24037F;
+}
+
 .columns{
     /* border:solid; */
     display:flex;
@@ -89,15 +112,25 @@
 
 .columns div{
     display:flex;
-    flex-direction:columns;
+    /* flex-direction:column; */
     /* border:solid; */
     /* margin: 0 auto; */
 }
 
-.columns p{
-    font-size: 1.5vmin;
+.twocol {
+    font-size: 1.6vmin;
     width:80%;
     text-align:justify;
     /* border:solid; */
     padding:3%;
+    font-weight: 100 ;
+
+}
+
+.onecol{
+    font-size: 1.6vmin;
+    text-align:justify;
+    /* border:solid; */
+    padding:3%;
+    font-weight: 100 ;
 }
