@@ -46,6 +46,8 @@ import Z from './assets/alpha-numeric/Z.svg'
 import One from './assets/alpha-numeric/1.svg'
 import Two from './assets/alpha-numeric/2.svg'
 import PhillyFridges from './components/phillyfridges'
+import Peoples from "./components/Peoples";
+import Germantown from "./components/Germantown";
 
 class App extends React.Component {
 
@@ -159,6 +161,12 @@ class App extends React.Component {
         
         <ParallaxLayer offset={3} speed={-0.2} style={{ opacity:1 }}>
           <FAQ />
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={-0.1} style={{ opacity:1 }}>
+          <Peoples />
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={-0.1} style={{ opacity:1 }}>
+          <Germantown />
         </ParallaxLayer>
 
       </Parallax>

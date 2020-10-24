@@ -12,6 +12,63 @@
     text-align: center;
     width: 90%;
     /* margin: 15% auto; */
-    padding:10%;
+    padding:7.5%;
 
+}
+
+.mutualaid p{
+    font-size: 2vmin;
+
+}
+
+.mutualaid h2{
+    font-size: 2vw;
+    /* color: red; */
+}
+
+.mutualaid h3{
+    font-size: 1.2vw;
+    color: #DD5B22;
+}
+
+.fridge-container{
+    display:flex;
+    justify-content: center;
+    width:60vw;
+    height: 60%;
+    margin: 10% auto;
+}
+
+.germantown{
+    background: #A9E0E0;
+    border-radius:76% 24% 43% 57% / 30% 36% 64% 70% 
+
+}
+.people{
+    background: #D3EF5E;
+    border-radius:75% 25% 43% 57% / 48% 62% 38% 52% ;
+
+
+}
+.fridge{
+    text-align: center;
+    width: 90%;
+    /* margin: 15% auto; */
+    padding:7.5%;
+
+}
+
+.fridge p{
+    font-size: 2vmin;
+
+}
+
+.fridge h2{
+    font-size: 2vw;
+    /* color: red; */
+}
+
+.fridge h3{
+    font-size: 1.2vw;
+    color: #DD5B22;
 }

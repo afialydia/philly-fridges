@@ -2,12 +2,13 @@ import React from 'react'
 import './components.css'
 
 
-const FAQ = () =>{
+const Germantown = () =>{
 
     return(
-        <div className="mutualaid-container">
-        <div className="mutualaid">
-            <h2>What is Mutual Aid?</h2>
+        <div className="fridge-container germantown">
+        <div className="fridge">
+            <h2>Germantown</h2>
+            <span>511 s. 52nd street, Philadelphia, PA, 19143</span>
             <p>Mutual Aid is a voluntary
             reciprocal exchange of resources and
             services for mutual benefit. Mutual Aid
@@ -27,10 +28,10 @@ const FAQ = () =>{
                 this fridge.
             </p>
             <h3>Food is a basic human right and
-everyone deserves access.</h3>
+                everyone deserves access.</h3>
         </div>
         </div>
     )
 }
 
-export default FAQ
+export default Germantown
