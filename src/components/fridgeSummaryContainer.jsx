@@ -3,23 +3,14 @@ import {fridgeData} from './fridgeData.js'
 import FridgeSummaryContents from "./fridgeSummaryContents.jsx";
 
 
-const FridgeSummaryContainer = () =>{
+const FridgeSummaryContainer = ({props}) =>{
 
-    const [state,setState]= useState(fridgeData)
-
-    console.log(state)
 
 return(
 
-    <div>
+    <div className={`fridge-container ${props.class_name}`}>
+       <FridgeSummaryContents key={props.class_name} fridge={props} /> 
 
-    {state.map(element => {
-        console.log(element.class)
-        return(
-        <div className={`fridge-container ${element.class}`}>
-        <FridgeSummaryContents key={element.class} fridge={element} /> 
-        </div>)
-})}
     </div>
 )
 }

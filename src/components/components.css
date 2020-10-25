@@ -32,12 +32,14 @@
 }
 
 .fridge-container{
-    display:flex;
+    display:grid;
     justify-content: center;
     width:60vw;
     height: 60%;
-    margin: auto;
-    margin-top:5%;
+    margin: 5% auto;
+    /* margin-top:5%; */
+    place-items:center;
+    /* border:solid; */
 }
 
 .phillycomm {
@@ -68,7 +70,7 @@
 }
 
 .phillycomm .fridge{
-    margin-top:7%;
+    margin-top:4.7%;
 }
 
 
@@ -100,7 +102,11 @@
     border: none;
     border-radius:76% 24% 73% 27% / 41% 69% 31% 59% ;
     background-color: #A6C5F6;
+}
+
+.link {
     color:#24037F;
+
 }
 
 .columns{
@@ -133,4 +139,23 @@
     /* border:solid; */
     padding:3%;
     font-weight: 100 ;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    /* display:block; */
+    background:#F5E25A;
+    /* border:solid; */
+    height:30px;
+    margin:auto 10%;
+    border-radius:48% 52% 68% 32% / 60% 63% 37% 40% ;
+    width: auto;
+    padding: 2%;
+}
+
+.car-container{
+    display:flex;
+    place-items:center;
+    height:100vh;
+    margin:0 auto;
+    /* border:solid; */
 }

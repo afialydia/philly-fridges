@@ -49,6 +49,8 @@ import PhillyFridges from '../components/phillyfridges'
 import Peoples from "../components/Peoples";
 import Germantown from "../components/Germantown";
 
+import FridgeCarousel from '../components/carousel.jsx'
+
 class Home extends React.Component {
 
 	render() {
@@ -166,7 +168,7 @@ class Home extends React.Component {
           <Peoples />
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={-0.1} style={{ opacity:1 }}>
-          <Germantown />
+          <FridgeCarousel/>       
         </ParallaxLayer>
 
       </Parallax>

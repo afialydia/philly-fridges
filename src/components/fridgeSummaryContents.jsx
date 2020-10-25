@@ -13,7 +13,7 @@ return(
             {mission_1}</p>
 
 {mission_2? <p className="twocol">{mission_2} </p>: ""}</div>
-<button><Link to={link}>Learn More</Link></button></div>
+<Link to={link}><button className="link">Learn More</button></Link></div>
 
             
         </div>
