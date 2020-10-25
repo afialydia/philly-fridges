@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import {fridgeData} from './fridgeData.js'
 import FridgeSummaryContents from "./fridgeSummaryContents.jsx";
 
 

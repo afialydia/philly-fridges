@@ -50,6 +50,7 @@ import Peoples from "../components/Peoples";
 import Germantown from "../components/Germantown";
 
 import FridgeCarousel from '../components/carousel.jsx'
+import FridgeMap from "../components/map.js";
 
 class Home extends React.Component {
 
@@ -61,8 +62,8 @@ class Home extends React.Component {
 				<header>
 					<nav>
 						<span className="nav-span" onClick={() => this.parallax.scrollTo(0)}><PhillyFridges/></span>
-						<span  className="nav-span"  onClick={() => this.parallax.scrollTo(1)}>Community Fridges</span>
-						<span className="nav-span"  onClick={() => this.parallax.scrollTo(2)}>Resources</span>
+						<span  className="nav-span"  onClick={() => this.parallax.scrollTo(1)}>Fridges</span>
+						<span className="nav-span"  onClick={() => this.parallax.scrollTo(2)}>Map</span>
 						<span className="nav-span"  onClick={() => this.parallax.scrollTo(3)}>FAQ</span>
 						
 					</nav>
@@ -165,7 +166,7 @@ class Home extends React.Component {
           <FAQ />
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={-0.1} style={{ opacity:1 }}>
-          <Peoples />
+          <FridgeMap/>
         </ParallaxLayer>
         <ParallaxLayer offset={1} speed={-0.1} style={{ opacity:1 }}>
           <FridgeCarousel/>       

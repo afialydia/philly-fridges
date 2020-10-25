@@ -40,6 +40,7 @@
     /* margin-top:5%; */
     place-items:center;
     /* border:solid; */
+    
 }
 
 .phillycomm {
@@ -66,6 +67,7 @@
     width: 90%;
     /* margin: 15% auto; */
     padding:7.5%;
+    
 
 }
 
@@ -158,4 +160,93 @@
     height:100vh;
     margin:0 auto;
     /* border:solid; */
+}
+
+.map{
+    height:60vh;
+    width:40vw;
+    margin:0 auto;
+    border-radius:12px;
+    border:none;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+
+
+.map-container{
+    display:flex;
+    margin: 5% auto;
+    place-items:center;
+
+    border-radius:48% 52% 68% 32% / 60% 63% 37% 40% ;
+    /* background: #E0AFE2; */
+    width:65vw;
+    height:75vh;
+
+}
+
+.profile-container{
+    border: solid;
+    height:100vh;
+    /* display: flex;
+    place-items: center; */
+}
+
+.profile{
+    width:80vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction:column;
+    place-items:center;
+    border:solid;
+    
+
+}
+
+.donations{
+    display:flex;
+    flex-direction:column;
+    border:solid green;
+}
+
+.yesno{
+    display:flex;
+    flex-direction:row;
+    border:solid;
+    place-items:center;
+}
+.yesno h6, .donations h4,.donations span{
+    text-align:center;
+
+}
+
+.yesno div{
+    width:40%;
+    border:solid;
+    margin: 0 auto;
+}
+
+.phypho{
+    width:20vw;
+    height: auto;
+}
+
+.seven{
+    border:none;
+    border-radius:69% 31% 70% 30% / 30% 30% 70% 70% ;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 10px 80px rgba(0, 0, 0, 0.12);
 }
