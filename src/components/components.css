@@ -228,7 +228,7 @@
     text-align:center;
 }
 
-.yesno{
+.yesno{ 
     display:flex;
     flex-direction:row;
     border:solid;
