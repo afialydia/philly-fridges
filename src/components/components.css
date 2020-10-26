@@ -206,22 +206,33 @@
     display: flex;
     flex-direction:column;
     place-items:center;
-    border:solid;
+    border:solid teal;
     
 
+}
+
+.profile h4{
+    text-align:center;
 }
 
 .donations{
     display:flex;
     flex-direction:column;
     border:solid green;
+    margin:1% auto;
+    
+}
+.donations p{
+    width:80%;
+    margin: 0 auto;
+    text-align:center;
 }
 
 .yesno{
     display:flex;
     flex-direction:row;
     border:solid;
-    place-items:center;
+    place-items:flex-start center;
 }
 .yesno h6, .donations h4,.donations span{
     text-align:center;
@@ -249,4 +260,22 @@
   0 22.3px 17.9px rgba(0, 0, 0, 0.072),
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 10px 80px rgba(0, 0, 0, 0.12);
+}
+
+.mission p{
+    width:80%;
+    margin:1% auto;
+    text-align: center;
+    border:solid blue;
+    
+}
+
+.media{
+    display:flex;
+    flex-direction:column;
+    place-items: center;
+    margin:1%;
+}
+
+.media div{
 }

@@ -61,12 +61,15 @@ const Philadelphia = () =>{
                             </ul>
                         </div>
                     </div>
+                    <div>
+                    <h4>Volunteer Information:</h4> <p>If you would like to volunteer, email philadelphiacommunityfridge@gmail.com with your name, pronouns, email address, and phone number. Our two main volunteer needs are people who can clean/sanitize the fridge on a daily basis, and people who can purchase or pickup food and transport it to the fridge. However, we have lots of other volunteer positions and are always looking for more volunteers to support the fridge!</p>
+                    </div>
 
                 </section>
                 <section className="contact">
                     <h4>Contact Information</h4>
                     <div>
-                    <i class="far fa-paper-plane"/>philadelphiacommunityfridge@gmail.com <br/>
+                    <i class="far fa-paper-plane"/> philadelphiacommunityfridge@gmail.com <br/>
                     <i class="fab fa-instagram"/> @phlcommunityfridge  <br/>
                     <i class="fab fa-twitter"/> @phillyfridge <br/>
                     <i class="fab fa-facebook"/> https://www.facebook.com/phlcommunityfridge</div>
