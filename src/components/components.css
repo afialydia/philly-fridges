@@ -192,10 +192,10 @@
 }
 
 .profile-container{
-    border: solid;
-    height:100vh;
-    /* display: flex;
-    place-items: center; */
+    /* border: solid; */
+    height:98vh;
+    display: flex;
+   /* place-items: center; */
 }
 
 .profile{
@@ -206,7 +206,7 @@
     display: flex;
     flex-direction:column;
     place-items:center;
-    border:solid teal;
+    /* border:solid teal; */
     
 
 }
@@ -218,7 +218,7 @@
 .donations{
     display:flex;
     flex-direction:column;
-    border:solid green;
+    /* border:solid green; */
     margin:1% auto;
     
 }
@@ -231,7 +231,7 @@
 .yesno{ 
     display:flex;
     flex-direction:row;
-    border:solid;
+    /* border:solid; */
     place-items:flex-start center;
 }
 .yesno h6, .donations h4,.donations span{
@@ -243,6 +243,11 @@
     width:40%;
     border:solid;
     margin: 0 auto;
+}
+
+.yesno div:nth-child(2){
+
+    height:100%;
 }
 
 .phypho{
@@ -266,7 +271,7 @@
     width:80%;
     margin:1% auto;
     text-align: center;
-    border:solid blue;
+    /* border:solid blue; */
     
 }
 

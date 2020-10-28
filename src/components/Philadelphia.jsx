@@ -11,16 +11,16 @@ import '../App.css'
 const Philadelphia = () =>{
 
     return(
+       
         <div className="profile-container">
-
-            <header>
-            <nav>
-            <span className="nav-span">
-            <Link to ="/">
-            <PhillyFridges/>
-            </Link>
-            </span></nav>
-            </header>
+        <header>
+        <nav>
+        <span className="nav-span">
+        <Link to ="/">
+        <PhillyFridges/>
+        </Link>
+        </span></nav>
+        </header>
 
 
                 <div className="profile">
@@ -98,7 +98,7 @@ IT'S A BASIC HUMAN RIGHT.</p>
                     <h4>Media Coverage</h4>
 
                     <div>
-                        {/* <a href="https://remezcla.com/features/culture/community-fridges-in-the-united-states-mission-purpose-and-stories/" target="_blank">Remezcla</a> */}
+                        <a href="https://whyy.org/articles/people-are-putting-stocked-fridges-on-philly-sidewalks/" target="_blank">WHYY.ORG Article</a>
                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aeErFXAjbps?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         
                     </div>
