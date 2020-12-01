@@ -23,5 +23,22 @@ export const fridgeData = [
     mission_2: "We partner with local grocers and restaurants to stock this fridge with perfectly good produce, pantry staples, and prepared foods that would otherwise be thrown out. BEING ABLE TO FEED YOURSELF AND YOUR FAMILY ISN'T A PRIVILEGE — IT'S A BASIC HUMAN RIGHT.",
     link:"/philadelphiacommunityfridge",
     class_name:'phillycomm'
+    },
+     {
+    name: "Mama-Tee Community Fridge",
+    address: "Many locations",
+    addresses:["Spot Burgers:  2821 W. Girard Ave (Brewerytown)",
+    "Triple Bottom Brewing:  915 Spring Garden St. (West Poplar)",
+    "312 39th Street (West Philly)",
+    "Castellino's Italian Market:  1255 E. Palmer (Fishtown)",
+    "Ambassador:  635 W. Girard Ave (North Philly/Fishtown)",
+    "Franny Lou's Porch:  2400 Coral Street (Kensington)",
+    "Caribe Towers:  3231 North 2nd Street (Fairhill)",
+    "Opportunity Towers I & II:  1717 W. Hunting Park Ave (Nicetown)",
+    "Restoration Church:  6410 Rising Sun Ave. (North East Philly)"
+    ],
+    ex_link:"https://www.mama-tee.com/communityfridge",
+    class_name:'mama-tee'
     }
+
 ]

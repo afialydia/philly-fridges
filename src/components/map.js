@@ -1,11 +1,13 @@
 import React from 'react'
+import fridge from '../assets/phillyfridges11_9.PNG' 
 import './components.css'
 
 
 const FridgeMap = () =>{
     return(
     <div className="map-container">
-<iframe className="map" src='//www.zeemaps.com/pub?group=3950617&legend=1'> </iframe>
+      <img className="map" src={fridge}/>  <a download href={fridge}><button>Download Map</button></a>
+
     </div>
     )
 }

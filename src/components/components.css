@@ -42,6 +42,14 @@
     /* border:solid; */
     
 }
+.mama-tee{
+    background: #ffe371;
+    border-radius:42% 58% 43% 57% / 30% 40% 60% 70%  ;
+    height: auto;
+    padding:2%;
+    margin: 0 auto;
+
+}
 
 .phillycomm {
     background: #F8D3B4 ;
@@ -67,7 +75,7 @@
     width: 90%;
     /* margin: 15% auto; */
     padding:7.5%;
-    
+    /* border:solid; */
 
 }
 
@@ -75,11 +83,32 @@
     margin-top:4.7%;
 }
 
+.mama-tee .fridge{
+    /* border:solid; */
+    margin: 4.7% auto;
+    width:auto;
 
+
+}
+
+.addresses{
+    display: flex;
+    flex-direction:column;
+    place-items: center;
+    /* border:solid; */
+    width:30vw;
+    margin: 0 auto;
+}
+.addresses p{
+
+    margin: 0 auto;
+    padding:.25%;
+    /* border:solid; */
+    width:100%;
+}
 
 .fridge p{
     font-size: 1.5vmin;
-  
 
 }
 
@@ -108,7 +137,6 @@
 
 .link {
     color:#24037F;
-
 }
 
 .columns{
@@ -163,7 +191,7 @@
 }
 
 .map{
-    height:60vh;
+    height:auto;
     width:40vw;
     margin:0 auto;
     border-radius:12px;
