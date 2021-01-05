@@ -16,8 +16,9 @@
 
 }
 
-.mutualaid p{
+.mutualaid p {
     font-size: 2vmin;
+    /* font-weight: 400; */
 
 }
 
@@ -219,6 +220,14 @@
 
 }
 
+/* .background-header {
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    background-color: #d0c8e8;
+} */
+
 .profile-container{
     /* border: solid; */
     height:98vh;
@@ -239,38 +248,95 @@
 
 }
 
-.profile h4{
+.profile p {
+    line-height: 30px;
+}
+
+.main-heading-container {
+    margin-bottom: 5rem;
+    /* border-bottom: dashed; */
+}
+
+.main-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin: 3rem 0.2rem 0.2rem 0.2rem;
+}
+
+.address-heading {
+    background-color: #f1df58;
+    /* color: white; */
+    border-radius: 2rem;
+    padding: .75rem;
     text-align:center;
+    font-style: italic;
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
 }
 
 .donations{
     display:flex;
     flex-direction:column;
     /* border:solid green; */
-    margin:1% auto;
-    
+    margin:3% auto;    
 }
+
+
 .donations p{
     width:80%;
     margin: 0 auto;
     text-align:center;
 }
 
-.yesno{ 
+.contact {
+    margin: 3% auto;
+    padding: 1rem 4rem 4rem 4rem ;
+    border: none;
+    border-radius:69% 31% 50% 50% / 40% 80% 40% 70% ;
+    background-color: #A6C5F6;
+}
+
+.volunteer {
+    /* margin-top: 2rem; */
+    margin: 3% auto;
+    text-align: center;
+    width: 80%;
+}
+
+.yesno { 
+    margin: 3%;
     display:flex;
     flex-direction:row;
     /* border:solid; */
     place-items:flex-start center;
+    min-width: 200px;
+    
 }
 .yesno h6, .donations h4,.donations span{
     text-align:center;
 
 }
 
+.yesno h6 {
+    font-size: 1.25rem;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
 .yesno div{
-    width:40%;
-    border:solid;
+    width:45%;
+    border:none;
+    border-radius: 65% 35% 74% 26% / 38% 22% 78% 62%  ;
     margin: 0 auto;
+    padding: 4.2rem 4.2rem 4rem 2rem;
+    background-color: #F8D3B4;
 }
 
 .yesno div:nth-child(2){
@@ -295,6 +361,10 @@
   0 10px 80px rgba(0, 0, 0, 0.12);
 }
 
+.mission {
+    margin: 3% auto;
+}
+
 .mission p{
     width:80%;
     margin:1% auto;
@@ -303,12 +373,42 @@
     
 }
 
+.mission div {
+    text-align: center;
+    padding: 1rem .3rem 1rem .3rem;
+    /* background-color: #d0c8e8; */
+    border-radius: 1rem;
+    font-weight: 700;
+    font-style: bold;
+}
+
 .media{
     display:flex;
     flex-direction:column;
     place-items: center;
-    margin:1%;
+    margin:3%;
+}
+
+.media a {
+    background-color: #A6C5F6;
+    color:  #24037F;
+    text-decoration: none;
+    padding: .75rem 2rem;
+    display: inline-block;
+    border-radius: 43% 57% 26% 74% / 56% 22% 78% 44% ;
+    margin: 2rem;
+}
+
+.media a:hover {
+    background-color: #24037F;
+    color: #A6C5F6;
+    text-decoration: none;
+    padding: .75rem 2rem;
+    display: inline-block;
+    border-radius: 43% 57% 26% 74% / 56% 22% 78% 44% ;
 }
 
 .media div{
+    margin: .5rem;
 }
+
