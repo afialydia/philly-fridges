@@ -393,8 +393,9 @@
     background-color: #A6C5F6;
     color:  #24037F;
     text-decoration: none;
+    text-align: center;
     padding: .75rem 2rem;
-    display: inline-block;
+    display: block;
     border-radius: 43% 57% 26% 74% / 56% 22% 78% 44% ;
     margin: 2rem;
 }
@@ -404,7 +405,7 @@
     color: #A6C5F6;
     text-decoration: none;
     padding: .75rem 2rem;
-    display: inline-block;
+    display: block;
     border-radius: 43% 57% 26% 74% / 56% 22% 78% 44% ;
 }
 
