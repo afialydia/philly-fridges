@@ -30,7 +30,35 @@ const Philadelphia = () =>{
                     <h1 className="main-heading">Philadelphia Community Fridge</h1>
                     <h5 className="address-heading">1229 S 6th Street (Radiance Medical Group) & 1901 S 9th Street (BOK)</h5>
                 </div>
-                
+
+                <section className="mission">
+                    <h4 className="section-heading">Mission</h4>
+                             <p>We're a community-centered, volunteer-based organization
+                            dedicated to giving all Philadelphians access to fresh and healthy
+                            food, combatting food insecurity and inequality in our city
+                            through mutual aid. Studies show that nearly 1 in 5 Philadelphia families struggle
+                            with hunger, and food pantries' demand for fresh produce has
+                            increased 3x since 2019. We partner with local grocers and restaurants to stock this
+                            fridge with perfectly good produce, pantry staples, and prepared
+                            foods that would otherwise be thrown out.</p>
+                        <div>
+                            <h6>BEING ABLE TO FEED YOURSELF AND
+                            YOUR FAMILY ISN'T A PRIVILEGE —
+                            IT'S A BASIC HUMAN RIGHT.</h6>                        
+                        </div>           
+                </section>
+
+
+                <section className="contact">
+                    <h4 className="section-heading">Contact Information</h4>
+                    <div>
+                    <i class="far fa-paper-plane"/> philadelphiacommunityfridge@gmail.com <br/>
+                    <i class="fab fa-instagram"/> @phlcommunityfridge  <br/>
+                    <i class="fab fa-twitter"/> @phillyfridge <br/>
+                    <i class="fab fa-facebook"/> https://www.facebook.com/phlcommunityfridge</div>
+                </section>
+
+
 
                 <section className="donations">
                     <h4 className="section-heading">Donation Drop-Off Information</h4>
@@ -73,31 +101,6 @@ const Philadelphia = () =>{
                     </div>
                 </section>
 
-                <section className="contact">
-                    <h4 className="section-heading">Contact Information</h4>
-                    <div>
-                    <i class="far fa-paper-plane"/> philadelphiacommunityfridge@gmail.com <br/>
-                    <i class="fab fa-instagram"/> @phlcommunityfridge  <br/>
-                    <i class="fab fa-twitter"/> @phillyfridge <br/>
-                    <i class="fab fa-facebook"/> https://www.facebook.com/phlcommunityfridge</div>
-                </section>
-
-                <section className="mission">
-                    <h4 className="section-heading">Mission</h4>
-                             <p>We're a community-centered, volunteer-based organization
-                            dedicated to giving all Philadelphians access to fresh and healthy
-                            food, combatting food insecurity and inequality in our city
-                            through mutual aid. Studies show that nearly 1 in 5 Philadelphia families struggle
-                            with hunger, and food pantries' demand for fresh produce has
-                            increased 3x since 2019. We partner with local grocers and restaurants to stock this
-                            fridge with perfectly good produce, pantry staples, and prepared
-                            foods that would otherwise be thrown out.</p>
-                        <div>
-                            <h6>BEING ABLE TO FEED YOURSELF AND
-                            YOUR FAMILY ISN'T A PRIVILEGE —
-                            IT'S A BASIC HUMAN RIGHT.</h6>                        
-                        </div>           
-                </section>
 
                 <section className="media">
                     <h4 className="section-heading">Media Coverage</h4>

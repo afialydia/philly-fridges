@@ -229,8 +229,8 @@
 } */
 
 .profile-container{
-    /* border: solid; */
-    height:98vh;
+    border: solid;
+    /* height:98vh; */
     display: flex;
    /* place-items: center; */
 }
@@ -243,7 +243,7 @@
     display: flex;
     flex-direction:column;
     place-items:center;
-    /* border:solid teal; */
+    border:solid teal;
     
 
 }
@@ -336,12 +336,15 @@
     border-radius: 65% 35% 74% 26% / 38% 22% 78% 62%  ;
     margin: 0 auto;
     padding: 4.2rem 4.2rem 4rem 2rem;
-    background-color: #F8D3B4;
+    background-color: #7e9120;
 }
 
 .yesno div:nth-child(2){
-
+    border-radius:30% 70% 70% 30% / 30% 73% 27% 70%  ;
     height:100%;
+    background-color: #d9911e;
+
+
 }
 
 .phypho{
@@ -363,6 +366,7 @@
 
 .mission {
     margin: 3% auto;
+    border:solid;
 }
 
 .mission p{
