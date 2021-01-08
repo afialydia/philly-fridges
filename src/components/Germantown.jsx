@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import germantownfridge from "/Users/caseycaruso/Pictures/2020/philly_fridges/philly-fridges/src/assets/germantown_fridge/germantown_fridge.JPG"
+import germantownfridge from ".../assets/germantown_fridge/germantown_fridge.jpg"
 
 
 import PhillyFridges from './phillyfridges'

@@ -1,5 +1,5 @@
 import React from 'react'
-import fridge from '/Users/caseycaruso/Pictures/2020/philly_fridges/philly-fridges/src/assets/phillyfridges11_9_desktop.png' 
+import fridge from '.../assets/phillyfridges11_9_desktop.png' 
 import './components.css'
 
 
