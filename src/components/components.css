@@ -193,7 +193,7 @@
 
 .map{
     height:auto;
-    width:40vw;
+    width:70vw;
     margin:0 auto;
     border-radius:12px;
     border:none;
@@ -210,6 +210,7 @@
 
 .map-container{
     display:flex;
+    flex-direction: column;
     margin: 5% auto;
     place-items:center;
 
@@ -218,6 +219,11 @@
     width:65vw;
     height:75vh;
 
+}
+
+
+.download-button{
+    margin: 2rem;
 }
 
 /* .background-header {
@@ -349,6 +355,11 @@
 
 .phypho{
     width:20vw;
+    height: auto;
+}
+
+.phypho-2{
+    width:40vw;
     height: auto;
 }
 
