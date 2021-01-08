@@ -401,7 +401,7 @@
     padding: .75rem 2rem;
     display: block;
     border-radius: 43% 57% 26% 74% / 56% 22% 78% 44% ;
-    margin: 2rem;
+    margin: .75rem;
 }
 
 .media a:hover {
@@ -414,6 +414,16 @@
 }
 
 .media div{
-    margin: .5rem;
+    /* margin: .5rem auto; */
+    display:flex;
+    flex-wrap:wrap;
+    border:solid;
+    flex-direction:row;
+
+}
+
+.media span{
+    margin: 0 auto;
+    /* border: solid; */
 }
 
