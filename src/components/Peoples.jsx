@@ -31,11 +31,8 @@ const Peoples = () =>{
                 </div>
                  <section className="mission">
                     <h4 className="section-heading">Mission</h4>
-                    <p>Our vision is to provide community members with groceries and pantry items as a free resource. On one level, The People’s Fridge is a way to combat hunger in underserved communities during a pandemic and an economic crisis. We believe that food is a human right and should never be a privilege, but it is. This community fridge is a mutual aid, meaning, community members have equal responsibility filling, maintaining, and caring for it lovingly.  Our fridge runs on a ‘take what you need, leave what you can’ basis. There is no pre-screening to take or leave something from the fridge. Part of our purpose is to create a resource people can fall back on, trust, and rely on to be there without repercussions.</p>
+                    <p>Our vision is to provide community members with fresh food and essentials as a free resource. On one level, The People’s Fridge is a way to combat hunger in underserved communities during a pandemic and an economic crisis. We believe that food is a human right and should never be a privilege, but it is. This community fridge is a mutual aid, meaning, community members have equal responsibility filling, maintaining, and caring for it lovingly. Our fridge runs on a ‘take what you need, leave what you don't’ basis. Part of our purpose is to create a resource people can fall back on, trust, and rely on to be there without repercussions. <br/>The People's Fridge is dedicated in memory of our father, Kalpesh Parikh.</p>
 
-                    <br></br>
-
-                    <p>The People's Fridge was inspired by the recent passing of our father. Because our father passed due to COVID19, we didn't have a way to say goodbye. For us, the fridge is a way to memorialize his lifelong commitment to feeding people. Our mom and dad instilled the ideals of food justice within us, even though they have never come across the term before. Our father modeled mutual aid for us consistently. Him and my mom really loved organizing diaper and formula drops, meal shares. It could be because our family has extremely benefitted from that kind of community aid, growing up in Brooklyn.</p>
                 </section>
 
                 <section className="contact">
@@ -67,6 +64,12 @@ const Peoples = () =>{
                     <h6 className="section-heading">Media Coverage</h6>
 
                     <div>
+                       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PNfEEMYprwM?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   
+            
+                    </div>
+
+                    <div>
                         <span>
                         <a href="https://remezcla.com/features/culture/community-fridges-in-the-united-states-mission-purpose-and-stories/" target="_blank">Remezcla</a>
                         <a href="https://philly.eater.com/21420094/community-fridges-philadelphia-mutual-aid-covid-19-food-insecurity" target="_blank">Philly Eater</a>
@@ -75,12 +78,15 @@ const Peoples = () =>{
                         <a href="https://thephiladelphiacitizen.org/sandwich-pop-up-bogo-philadelphia/" target="_blank">The Philadelphia Citizen</a>
                         <a href="https://www.bonappetit.com/story/minas-world" target="_blank">Bon Appetit</a>
                         </span>
+                        <span>
+                        <a href="https://www.gridphilly.com/blog-home/2020/10/28/philly-community-fridges" target="_blank">Grid</a>
+                        <a href="https://www.thecitypulse.com/post/community-refrigerators" target="_blank">The City Pulse</a>                        
+                        </span>
                     </div>
 
 
                 </section>
              
-                
                 
                 
             </div>
