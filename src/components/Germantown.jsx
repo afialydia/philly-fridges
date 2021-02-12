@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import germantownfridge from "../assets/germantown_fridge/germantown_fridge.jpg"
+
+import germantown from '../assets/germantown_fridge/germantown_fridge.jpg'
 
 
 import PhillyFridges from './phillyfridges'
@@ -23,7 +24,7 @@ const Germantown = () =>{
             </header>
 
             <div className="profile">
-            <img className="phypho-2 seven" src={germantownfridge}/>
+                <img className="phypho seven" src={germantown}/>
 
                 <div className="main-heading-container">
                     <h1 className="main-heading">Germantown Community Fridge</h1>
