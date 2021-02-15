@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import FridgeSummary from './components/fridgeSummaryContainer.jsx'
 
-import Home from './pages/Home.js'
+import Home from './pages/Home.page.jsx'
 import PeoplesPage from './pages/Peoples.page.jsx'
 import GermantownPage from './pages/Germantown.page.jsx'
 import PhiladelphiaPage from './pages/Philadelphia.page.jsx'
@@ -21,8 +21,6 @@ function App() {
 				<Route exact path="/thepeoplesfridge" component={PeoplesPage} />
         		<Route exact path="/germantowncommunityfridge" component={GermantownPage} />
 				<Route exact path="/philadelphiacommunityfridge" component={PhiladelphiaPage} />
-        
-
 			</Switch>
 
 		</div>

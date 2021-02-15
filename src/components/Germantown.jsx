@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import germantown from '../assets/germantown_fridge/germantown_fridge.jpg'
+import germantown from '../assets/germantownFridge/germantownFridge.jpg'
 
 
 import PhillyFridges from './phillyfridges'
